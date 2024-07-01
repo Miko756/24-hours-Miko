@@ -7,9 +7,18 @@ pyromod==1.5
 
 # --- For-Database ------------ #
 pymongo
+motor
+umongo
 dnspython
+marshmallow
 
 git+https://github.com/vpcreatz/pyrofork-adv.git
 
 # --- For-Web-Response ------- #
 aiohttp
+pytz
+requests
+bs4
+shortzy
+aiofiles
+asyncio
