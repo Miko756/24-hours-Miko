@@ -10,7 +10,7 @@ from logging.handlers import RotatingFileHandler
 
 
 #Bot token @Botfather
-TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "7473794839:AAFrSBbA2yQyENqLIL1DYEcY5Noi9jy_J8w")
+TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "7828911659:AAHSheEde1fDJhUTRQqid5aY0UJd58lLb-k")
 
 #Your API ID from my.telegram.org
 APP_ID = int(os.environ.get("APP_ID", "29759992"))
@@ -19,28 +19,28 @@ APP_ID = int(os.environ.get("APP_ID", "29759992"))
 API_HASH = os.environ.get("API_HASH", "61f150cdca64b2916fa499d107393140")
 
 #Your db channel Id
-CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1002159995052"))
+CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1002225361182"))
 
 #OWNER ID
 OWNER_ID = int(os.environ.get("OWNER_ID", "5787502520"))
 
 #Port
-PORT = os.environ.get("PORT", "3000")
+PORT = os.environ.get("PORT", "3050")
 
 #Database 
-DB_URI = "mongodb+srv://Akane:aloksingh@akane.wg38x.mongodb.net/?retryWrites=true&w=majority"
+DB_URI = "mongodb+srv://Yuki:aloksingh@yuki.biabo.mongodb.net/?retryWrites=true&w=majority"
 DB_NAME = os.environ.get("DATABASE_NAME", "filesharexbot")
 
 SHORTLINK_URL = os.environ.get("SHORTLINK_URL", "instantearn.in")
-SHORTLINK_API = os.environ.get("SHORTLINK_API", "12cc5d6b818ac28ea22499bd213ab7de1efcdf5b")
+SHORTLINK_API = os.environ.get("SHORTLINK_API", "22a49ad61d74591b23e32278742fc31dcde9f6d0")
 VERIFY_EXPIRE = int(os.environ.get('VERIFY_EXPIRE', 54000)) # Add time in seconds
 IS_VERIFY = os.environ.get("IS_VERIFY", "True")
 TUT_VID = os.environ.get("TUT_VID","gojfsi/2")
 
 
 #force sub channel id, if you want enable force sub
-FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", "-1002115345184"))
-FORCE_SUB_CHANNEL2 = int(os.environ.get("FORCE_SUB_CHANNEL2", "-1002164462071"))
+FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", "0"))
+FORCE_SUB_CHANNEL2 = int(os.environ.get("FORCE_SUB_CHANNEL2", "0"))
 
 TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "4"))
 
